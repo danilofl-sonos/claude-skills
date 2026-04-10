@@ -14,4 +14,4 @@ Place `.md` skill files in your `.claude/skills/` directory, or reference this r
 
 | Skill | Description |
 |-------|-------------|
-| [jira-story-writer](jira-story-writer.md) | Generate Jira-ready Agile artifacts (User Stories, Spikes, Epics, Bugs) with INVEST principles, BDD acceptance criteria, and Fibonacci estimation |
+| [jira-issue-writer](jira-issue-writer.md) | Generate Jira-ready Agile artifacts (User Stories, Spikes, Epics, Bugs) with INVEST principles, BDD acceptance criteria, and Fibonacci estimation |
