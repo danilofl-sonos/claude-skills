@@ -60,6 +60,18 @@ Group issues under high-level, business-oriented headings:
 
 ## Output Format
 
+### Delivery Rule
+
+**Never create a file, attachment, or document (e.g., DOCX, PDF, TXT).** Always output the release notes directly in the chat as a single fenced plain-text code block so the user can copy it in one action:
+
+````
+```
+[full release notes here]
+```
+````
+
+---
+
 ### Header
 
 ```
