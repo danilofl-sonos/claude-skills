@@ -1,83 +1,57 @@
 # Design Critique Framework
 
-Use this structure whenever performing a design critique. Adapt the depth to the scope of the request — a quick gut-check needs less formality than a full review.
+Use this structure when the user shares a design for feedback.
 
 ---
 
-## 1. Context Check (Before Critiquing)
+## 1. First Impression (5-second test)
 
-Confirm you understand:
-- **Who** is the target user? (role, expertise, context of use)
-- **What** is the user trying to accomplish on this screen/flow?
-- **Where** does this fit in the broader product? (entry point, mid-flow, terminal screen)
-- **What platform/device** is this designed for?
-
-If any of these are unclear, ask before proceeding.
+- What is the page/screen about? Is it immediately clear?
+- What's the first thing your eye goes to? Is that the right thing?
+- What action does the user know to take first?
 
 ---
 
-## 2. First Impressions (5-Second Test)
+## 2. What's Working
 
-Before detailed analysis, state:
-- What is the **primary message or action** a user would notice first?
-- Does the visual hierarchy **direct attention** to the right thing?
-- What is your **immediate emotional response** to the design? (calm, overwhelming, trustworthy, confusing, etc.)
+Be specific. Not "the layout is clean" but "the primary CTA is visually dominant and clearly separated from secondary actions."
 
----
-
-## 3. What's Working
-
-Lead with genuine positives — be specific, not generic.
-
-❌ "The layout looks clean."
-✅ "The two-column layout creates a clear separation between form input and contextual help, which reduces cognitive load for first-time users."
+Acknowledge:
+- Strong visual hierarchy
+- Good use of whitespace
+- Clear labeling or copy
+- Consistent patterns
+- Appropriate use of color/contrast
 
 ---
 
-## 4. Issues & Severity Ratings
+## 3. Issues (by severity)
 
-Categorize every issue by user impact:
+**🔴 Critical** — Likely causes task failure or user abandonment
+Examples: broken flows, unclear primary action, missing error states, accessibility blockers
 
-| Severity | Label | Criteria |
-|----------|-------|----------|
-| 🔴 | Critical | Blocks task completion or causes user error |
-| 🟡 | Important | Creates friction, confusion, or reduces trust |
-| 🟢 | Nice-to-have | Polish or minor improvement with low impact |
+**🟡 Important** — Causes friction, confusion, or mistrust
+Examples: unclear labels, cluttered layouts, inconsistent patterns, poor feedback on interactions
+
+**🟢 Nice-to-have** — Polish, delight, minor improvements
+Examples: microcopy improvements, visual refinements, additional affordances
 
 For each issue:
-1. **Describe the problem** — what a user would experience
-2. **Explain why it's a problem** — root cause (hierarchy, affordance, labeling, etc.)
-3. **Suggest a concrete fix** — not "improve the button" but "change CTA label from 'Submit' to 'Save & Continue' to set clearer expectations"
-
-Limit to the **top 5–7 issues**. More than that signals a redesign, not a critique.
+- **What:** Describe the problem
+- **Why it matters:** User impact
+- **Suggestion:** Specific fix or direction
 
 ---
 
-## 5. Accessibility Flags
+## 4. Top 3 Recommendations
 
-Always check proactively:
-- **Contrast:** Does text meet WCAG AA (4.5:1 for body, 3:1 for large text)?
-- **Touch targets:** Are interactive elements at least 44×44px on mobile?
-- **Focus states:** Are keyboard/tab focus indicators visible?
-- **Labels:** Do form inputs have visible labels (not just placeholder text)?
-- **Error states:** Are errors communicated beyond color alone?
+Prioritize ruthlessly. What would make the biggest difference?
 
 ---
 
-## 6. Top Recommendations
+## 5. Questions to Consider
 
-Close with a ranked list of the 3 changes that would have the highest impact:
-
-1. [Highest impact change]
-2. [Second highest]
-3. [Third highest]
-
-Keep these actionable and scoped — the user should be able to act on them immediately.
-
----
-
-## 7. Open Questions (Optional)
-
-If there are design decisions you can't evaluate without more context, list them:
-- "Is there a reason the primary CTA is below the fold on mobile? If not, this should move up."
-- "Who manages the empty state — is there a seeding strategy, or do new users start with a blank canvas?"
+Open questions the designer should think through:
+- Edge cases not shown (empty states, errors, mobile)
+- User context assumptions
+- Business goal alignment
