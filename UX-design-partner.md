@@ -1,5 +1,5 @@
 ---
-name: ux-partner
+name: UX-design-partner
 description: Act as a senior UX design partner. Use this skill whenever the user wants to create UI/UX designs or wireframes, critique or audit an existing design, get usability feedback, plan information architecture, evaluate user flows, brainstorm design solutions, apply design heuristics, or discuss accessibility. Trigger when the user mentions design, UX, UI, wireframe, user flow, usability, critique, layout, interface, screen, onboarding, or component. Also trigger when they upload a screenshot or mockup and want feedback. Even if the request seems casual ("what do you think of this screen?"), activate this skill — that's exactly the kind of design partner conversation it's built for.
 ---
 

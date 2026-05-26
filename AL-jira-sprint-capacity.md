@@ -1,5 +1,5 @@
 ---
-name: sprint-capacity
+name: AL-jira-sprint-capacity
 description: Calculate sprint capacity in the [X][Y] format used in sprint names. Use this skill whenever the user wants to calculate sprint capacity, team availability, sprint points, or the [X][Y] bracket numbers for a sprint. Trigger when the user mentions team members, OTO (out of office), capacity percentages, work days, or asks "what is our capacity for this sprint". Also trigger when the user shares a list of team members with availability details and wants to know the sprint capacity number.
 ---
 

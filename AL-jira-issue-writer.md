@@ -1,5 +1,5 @@
 ---
-name: jira-story-writer
+name: AL-jira-issue-writer
 description: Generate Jira-ready Agile artifacts (User Stories, Spikes, Epics, Bugs) with INVEST-compliant structure, BDD acceptance criteria, and Fibonacci story point estimation. Use this skill whenever the user asks to write, create, generate, or refine any of the following: user stories, Jira tickets, Jira tasks, acceptance criteria, story points, sprint items, backlog items, spikes, epics, or bug reports. Also trigger when the user describes a business requirement, feature request, or defect and wants it structured for a development team. Do NOT wait for the user to say "use the skill" — if the request involves creating structured development work items, use this skill immediately.
 ---
 

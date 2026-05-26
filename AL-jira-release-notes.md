@@ -1,5 +1,5 @@
 ---
-name: jira-to-release
+name: AL-jira-release-notes
 description: Transform a structured Jira HTML export into professional, business-friendly release notes. Use this skill whenever the user provides a Jira HTML file, asks to generate release notes, wants to convert Jira issues into stakeholder communications, or needs to summarize a sprint/version delivery for a non-technical audience. Trigger immediately — do not wait for the user to explicitly invoke it.
 ---
 
